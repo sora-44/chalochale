@@ -1,0 +1,143 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f8f9fa;
+  color: #111827;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  min-height: 72px;
+  background: #000 !important;
+}
+
+.navbar-brand {
+  font-size: 1.35rem;
+}
+
+.navbar-nav {
+  gap: 0.35rem;
+}
+
+.navbar .nav-link {
+  color: #d1d5db;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: #fff;
+}
+
+.btn-warning {
+  border: 0;
+  background: #ffc107;
+  color: #212529;
+}
+
+.page-heading {
+  padding: 4.5rem 1rem 2.5rem;
+  text-align: center;
+  background: #fff;
+}
+
+.page-heading h1 {
+  margin-bottom: 0.75rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.page-heading p {
+  color: #4b5563;
+  font-size: 1.15rem;
+}
+
+.site-footer {
+  width: 100%;
+  padding: 1rem;
+  margin-top: auto;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.destination-card img {
+  height: 240px;
+  object-fit: cover;
+}
+
+.package-card {
+  height: 100%;
+  border-radius: 6px;
+}
+
+.package-card .card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+}
+
+.package-card .btn {
+  margin-top: auto;
+}
+
+.package-detail-card {
+  overflow: hidden;
+  border: 0;
+  border-radius: 8px;
+}
+
+.package-detail-card img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.package-detail-card .price {
+  color: #198754;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.booking-card {
+  width: min(600px, 100%);
+  border-radius: 10px;
+}
+
+.booking-card .form-label {
+  font-size: 0.875rem;
+}
+
+.booking-card .form-control,
+.booking-card .form-select {
+  min-height: 42px;
+}
+
+.auth-card {
+  width: min(460px, 100%);
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.auth-card h1 {
+  margin-bottom: 1.25rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.auth-card .btn {
+  min-height: 42px;
+}
+
+.auth-page {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 72px);
+}
+
+.auth-page .auth-card {
+  margin-top: 1.25rem;
+}
